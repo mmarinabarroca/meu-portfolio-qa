@@ -1,1 +1,16 @@
+## Plano de Testes – SauceDemo
 
+### Objetivo
+Validar funcionalidades principais do sistema.
+
+### Escopo
+- Login
+- Carrinho
+- Checkout
+
+### Tipos de teste
+- Testes funcionais
+- Testes exploratórios
+
+### Riscos
+- Falhas no login impedem uso do sistema
