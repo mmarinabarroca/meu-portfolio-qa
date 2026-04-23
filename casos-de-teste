@@ -1,0 +1,42 @@
+## TC-001 – Validar login com credenciais inválidas
+
+**Pré-condição:** Usuário está na página de login  
+
+**Passos:**
+1. Inserir email inválido  
+2. Inserir senha qualquer  
+3. Clicar em "Sing In"  
+
+**Resultado esperado:** Sistema deve exibir mensagem de erro  
+
+**Resultado real:** Sistema exibiu mensagem "Incorrect email or password."  
+
+**Status:** Passou
+
+## TC-002 – Validar login com campos vazios
+
+**Pré-condição:** Página de login aberta  
+
+**Passos:**
+1. Não preencher email  
+2. Não preencher senha  
+3. Clicar em "Sing In"  
+
+**Resultado esperado:** Sistema deve impedir login e exibir mensagem informando que os campos sao obrigatorios. 
+
+**Resultado real:** Sistema exibiu mensagem "Incorrect email or password." e nao efetuou o login.
+
+**Status:** Falhou
+
+
+
+
+
+
+
+
+
+
+
+
+  
