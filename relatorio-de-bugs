@@ -1,0 +1,25 @@
+## BUG-001 – Mensagem incorreta ao submeter login com campos vazios
+
+**Severidade:** Média  
+**Prioridade:** Média  
+
+**Ambiente:**
+- Aplicação: SauceDemo  
+- Navegador: Chrome  
+
+**Pré-condição:**
+Usuário na página de login  
+
+**Passos para reproduzir:**
+1. Não preencher o campo de email  
+2. Não preencher o campo de senha  
+3. Clicar em "Sign In"  
+
+**Resultado atual:**
+Sistema exibe a mensagem "Incorrect email or password."  
+
+**Resultado esperado:**
+Sistema deve exibir mensagem informando que os campos são obrigatórios  
+
+**Evidência:**
+(Screenshot anexado na pasta /evidencias)
