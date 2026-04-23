@@ -13,6 +13,7 @@
 
 **Status:** Passou
 
+
 ## TC-002 – Validar login com campos vazios
 
 **Pré-condição:** Página de login aberta  
@@ -25,6 +26,22 @@
 **Resultado esperado:** Sistema deve impedir login e exibir mensagem informando que os campos sao obrigatorios. 
 
 **Resultado real:** Sistema exibiu mensagem "Incorrect email or password." e nao efetuou o login.
+
+**Status:** Falhou
+
+
+
+## TC-003 – Acessar carrinho de compras apartir da página de produto
+**Pré-condição:** Usuário está na página de produtos
+
+**Passos:**
+1. Acessar um dos produtos exibidos  
+2. Clicar em "Add to cart"
+3. Clicar no ícone do carrinho  
+
+**Resultado esperado:** Sistema deve redirecionar para a pagina de carrinho exibindo o produto adicionado
+
+**Resultado real:** Sistema exibiu ícone de carregamento no topo da tela e nao redirecionou para a página do carrinho
 
 **Status:** Falhou
 
