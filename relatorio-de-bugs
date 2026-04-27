@@ -21,3 +21,42 @@ Sistema exibe a mensagem "Incorrect email or password."
 **Resultado esperado:**
 Sistema deve exibir mensagem informando que os campos são obrigatórios  
 
+
+## BUG-002 – Comportamento inconsistente ao clicar repetidamente em "Add to cart"
+
+**Severidade:** Alta  
+**Prioridade:** Alta  
+
+**Ambiente:**
+- Aplicação: SauceDemo  
+- Navegador: Chrome  
+
+**Pré-condição:**
+Usuário autenticado na página de produtos  
+
+**Passos para reproduzir:**
+1. Acessar a página de produtos  
+2. Clicar rapidamente várias vezes no botão "Add to cart"  
+3. Clicar no ícone do carrinho  
+
+**Resultado atual:**
+Sistema apresenta comportamento inconsistente, incluindo:
+- Seleção inesperada de elementos da interface (acionando comportamento de pesquisa do navegador)
+- Falha ao acessar o carrinho após a interação  
+
+**Resultado esperado:**
+Sistema deve processar os cliques corretamente, sem gerar efeitos colaterais na interface, mantendo o funcionamento normal do carrinho  
+
+**Frequência:**
+Intermitente 
+
+**Impacto:**
+Usuário pode perder controle da interface e não consegue acessar o carrinho, comprometendo o fluxo de compra.
+
+
+
+
+
+
+
+
