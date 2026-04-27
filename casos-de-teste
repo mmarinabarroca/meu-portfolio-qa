@@ -46,10 +46,36 @@
 **Status:** Falhou
 
 
+## TC-004 – Remover produto do carrinho
+
+**Pré-condição:** Usuário com pelo menos um produto no carrinho  
+
+**Passos:**
+1. Acessar a página do carrinho  
+2. Localizar o produto adicionado  
+3. Clicar no botão "Remove"  
+
+**Resultado esperado:** Produto deve ser removido do carrinho e não deve mais ser exibido  
+
+**Resultado real:** Produto foi removido com sucesso  
+
+**Status:** Passou
 
 
+## TC-005 – Validar checkout com campos obrigatórios vazios
 
+**Pré-condição:** Usuário com produto no carrinho e na página de checkout  
 
+**Passos:**
+1. Clicar em "Checkout"  
+2. Não preencher os campos obrigatórios (Address, Last Name, Zip Code)  
+3. Clicar em "Continue"  
+
+**Resultado esperado:** Sistema deve exibir mensagem informando que os campos são obrigatórios e impedir a continuidade  
+
+**Resultado real:** Sistema exibiu mensagem de erro e não permitiu continuar  
+
+**Status:** Passou
 
 
 
